@@ -1,0 +1,60 @@
+## Interface: 16001
+## Title: Maozei
+## Title-zhCN: 毛贼
+## Title-zhTW: 毛賊
+## Notes: Rogue adaptation of Miao Litter for WoW Forever. Original author Elspeth (@SOSO财高八抖), GPL-2.0-only. Energy, combo points, poisons, and hints for every rogue tree.
+## Notes-zhCN: 《猫砂》的潜行者改版。原作者 Elspeth（@SOSO财高八抖），许可仍为 GPL-2.0-only。能量、连击点、毒药，以及三系天赋共用的提示。
+## Notes-zhTW: 《貓砂》的盜賊改版。原作者 Elspeth（@SOSO財高八抖），許可仍為 GPL-2.0-only。能量、連擊點、毒藥，以及三系天賦共用的提示。
+## Author: Elspeth (@SOSO财高八抖)
+## X-Website: https://miao.tips
+## X-License: GPL-2.0-only
+## X-Notice: 毛贼 is a rogue adaptation of Miao Litter by Elspeth (@SOSO财高八抖), GPL-2.0-only. Keep this licence, the original author, and the tribute to Kuron.
+## X-Curse-Project-ID: 1810878
+## Version: 1.0.0
+## SavedVariables: ForeverMaozeiDB
+## OptionalDeps: EllesmereUI, LibSharedMedia-3.0
+## IconTexture: Interface\AddOns\ForeverMaozei\Media\Textures\logo
+## Category: Class
+## Category-zhCN: 职业
+
+# Core
+Core\Init.lua
+Core\Locale.lua
+Locales\enUS.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+Core\Spells.lua
+Core\Stances.lua
+Core\GameData.lua
+Core\Media.lua
+Core\Themes.lua
+Core\Database.lua
+Core\Secret.lua
+Core\Forms.lua
+Core\Style.lua
+
+# Modules
+Modules\Hud.lua
+Modules\ResourceBars.lua
+Modules\Poisons.lua
+Modules\HealthBar.lua
+Modules\ComboPoints.lua
+Modules\NativeCDM.lua
+Modules\Cooldowns.lua
+Modules\Hints.lua
+Modules\CastSounds.lua
+Modules\Layout.lua
+Modules\Swing.lua
+Modules\GcdBorder.lua
+Modules\CastBar.lua
+Modules\Mover.lua
+Modules\Preview.lua
+Modules\EllesmereUI.lua
+
+# Options
+Options\Widgets.lua
+Options\Window.lua
+Options\Pages.lua
+Options\Onboarding.lua
+Options\GamePanel.lua
+Options\Commands.lua
